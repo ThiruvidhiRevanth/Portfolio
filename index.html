@@ -29,7 +29,7 @@
                 <h4 class="header-subtitle" >Hello, I am</h4>
                 <h1 class="header-subtitle" style="font-size: 50px;font-weight: 600;" >Thiruvidhi Revanth</h1>
                 <h6 class="header-mono" >Aspiring Flutter App Developer </h6>
-                <button class="btn btn-primary btn-rounded" onclick="printAnotherPage('https://thiruvidhirevanth.github.io/RESUME/')"><i class="ti-printer pr-2"></i>Print Resume</button>
+                <button class="btn btn-primary btn-rounded" onclick="printresume('https://thiruvidhirevanth.github.io/RESUME/')"><i class="ti-printer pr-2"></i>Print Resume</button>
                 <iframe id="printFrame" style="display:none;"></iframe>
             </div>
         </div>
@@ -60,7 +60,7 @@
                 </ul>
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="#portfolio" class="nav-link">Projects</a>
+                        <a href="#project" class="nav-link">Projects</a>
                     </li>
                     <li class="nav-item">
                         <a href="#blog" class="nav-link">Blog</a>
@@ -83,7 +83,7 @@
                     I have aggregated my 10th standard with 9.80 CGPA, and my 12t standard with 94 percentage..
                     My Hobbies are playing games,Listening music,singing songs. My strengths are
                     self motivation & Identifing Mistakes in my self.</p>
-                <button class="btn btn-outline-danger"><i class="icon-down-circled2 "></i>Download My CV</button>
+                <button class="btn btn-outline-danger" onclick="printcv('https://thiruvidhirevanth.github.io/CV/')"><i class="icon-down-circled2 "></i>Download My CV</button>
             </div>
             <div class="col-lg-6 about-card">
                 <h3 class="font-weight-light">Personal Info</h3>
@@ -108,7 +108,7 @@
         </div>
     </div>
 
-    <!--Resume Section-->
+   
     <section class="section" id="resume">
         <div class="container">
             <h2 class="mb-5"><span class="text-danger">My</span> Resume</h2>
@@ -246,8 +246,8 @@
  
     
 
-    <!-- Portfolio Section -->
-    <section class="section bg-custom-gray" id="portfolio">
+   
+    <section class="section bg-custom-gray" id="project">
         <div class="container">
             <h1 class="mb-5"><span class="text-danger">My</span> Projects</h1>
             <div class="portfolio">
@@ -276,7 +276,7 @@
             </div>  
         </div>            
     </section>
-    <!-- End of portfolio section -->
+   
 
    
     <section class="section" id="blog">
@@ -310,9 +310,8 @@
 
                         <a href="https://gemini.google.com/app" class="read-more">More about it <i class="ti-angle-double-right"></i></a>
                     </div>
-                </div><!-- end of blog wrapper -->
-
-                <!-- blog-card -->
+                </div>
+               
                 <div class="blog-card">
                     <div class="img-holder">
                         <img src="assets/imgs/blog2.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
@@ -428,14 +427,14 @@
     </div>
    
 
-	<!-- core  -->
+	
     <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
     <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
 
-    <!-- bootstrap 3 affix -->
+   
     <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
 
-    <!-- Isotope  -->
+    
     <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
     
 
