@@ -1,14 +1,22 @@
 
 
-function printAnotherPage(pageUrl) {
+function printresume(pageUrl) {
     var newWindow = window.open(pageUrl, '_blank');
     
-    // Wait for the new window to be fully loaded before triggering the print dialog
+    
     newWindow.onload = function() {
         newWindow.print();
     };
 }
-// smooth scroll
+function printcv(pageUrl) {
+    var newWindow = window.open(pageUrl, '_blank');
+    
+    
+    newWindow.onload = function() {
+        newWindow.print();
+    };
+}
+
 $(document).ready(function(){
     $(".navbar .nav-link").on('click', function(event) {
 
@@ -27,7 +35,7 @@ $(document).ready(function(){
     });
 });
 
-// protfolio filters
+
 $(window).on("load", function() {
     var t = $(".portfolio-container");
     t.isotope({
