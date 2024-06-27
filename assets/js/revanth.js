@@ -4,8 +4,8 @@ function printresume(pageUrl) {
     var newWindow = window.open(pageUrl, '_blank');
     
     
-    newWindow.onload = function() {
-        newWindow.print();
+    //newWindow.onload = function() {
+     //   newWindow.print();
     };
 }
 function printcv(pageUrl) {
